@@ -12,7 +12,9 @@ An API-based Engine does not use the crawler to index documents.
     PERL
   </CodeSampleItem>
   <CodeSampleItem language="javascript">
-    const func = (language) => { console.log(language) }
+    const func = (language) => {
+      console.log(language)
+    }
   </CodeSampleItem>
 </CodeSample>
 
