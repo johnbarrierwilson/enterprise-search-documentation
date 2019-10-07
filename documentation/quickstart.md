@@ -8,7 +8,16 @@ slug: "/quickstart"
 An API-based Engine does not use the crawler to index documents.
 
 <CodeSample>
-  <p>Display Code Sample</p>
+  <CodeSampleItem language="perl">
+    ```
+    PERL
+    ```
+  </CodeSampleItem>
+  <CodeSampleItem language="javascript">
+    ```javascript
+    const func = (language) => { console.log(language) }
+    ```
+  </CodeSampleItem>
 </CodeSample>
 
 Instead, you index documents via an API endpoint.
