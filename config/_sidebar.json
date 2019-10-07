@@ -22,7 +22,19 @@
       {
         "name": "Adding Site Search to any CMS",
         "id": 0,
-        "href": "/tutorials/adding-site-search-to-any-cms"
+        "href": "/tutorials/adding-site-search-to-any-cms",
+        "items": [
+          {
+            "name": "Sub-Section Title",
+            "id": 0,
+            "href": "/"
+          },
+          {
+            "name": "Another Nested Title",
+            "id": 1,
+            "href": "/"
+          }
+        ]
       },
       {
         "name": "Building a smart 404 page with Swiftype",
