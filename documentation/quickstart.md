@@ -9,10 +9,15 @@ An API-based Engine does not use the crawler to index documents.
 
 <CodeSample>
   <CodeSampleItem language="perl">
-    PERL
+    # Prints the message using two different delimeters.
+    print "Hello, world!\n";
+    print qq=Did you say "Hello?"\n=;
   </CodeSampleItem>
   <CodeSampleItem language="javascript">
     const func = (language) => {
+      const setup = new Client({
+        privateKey: 'XXXXXXXXXX'
+      })
       console.log(language)
     }
   </CodeSampleItem>
